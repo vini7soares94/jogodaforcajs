@@ -1,0 +1,108 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #8fb2ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #e0e0e0;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #e0e0e0;
+  font-size: 18px;
+}
+
+.categories {
+  margin: 20px 0;
+}
+
+.categories button {
+  background-color: #FFA07A;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.categories button:hover {
+  background-color: #FF7F50;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #98FB98;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #90EE90;
+}
+
+.word-display {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #e0e0e0;
+}
+
+#guesses {
+  color: #e0e0e0;
+  margin-top: 10px;
+}
+
+#letters {
+  margin-top: 20px;
+}
+
+#letters button {
+  background-color: #87CEEB;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#letters button:hover {
+  background-color: #00BFFF;
+}
+
+#newGameBtn {
+  background-color: #FFD700;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#newGameBtn:hover {
+  background-color: #FFA500;
+}
